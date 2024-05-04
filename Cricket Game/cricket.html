@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bat Ball Stump Game</title>
+    <link rel="stylesheet"  href="cricket.css">
+</head>
+
+<body>
+    <h1>Bat Ball Stump Game</h1>
+    <div id="content-box">
+    <button  id="bat" class="button"  onclick="mychoice='bat';(randomChoice()); (engine()) ;(result())"><img src="https://github.com/KG-Coding-with-Prashant-Sir/JavaScript_Complete_YouTube/blob/main/8%20JSON%20Local%20Storage%20Date%20and%20DOM/Cricket%20Game/images/bat.png?raw=true" alt="bat" class="image"></button>
+    <button    id="ball" class="button"     onclick="mychoice='ball';(randomChoice());(engine()) ;(result())"><img src="https://github.com/KG-Coding-with-Prashant-Sir/JavaScript_Complete_YouTube/blob/main/8%20JSON%20Local%20Storage%20Date%20and%20DOM/Cricket%20Game/images/ball.png?raw=true" alt="ball"  class="image"></button>
+<button       id="wicket" class="button"        onclick="mychoice='stump';(randomChoice());(engine()) ;(result())"><img src="https://github.com/KG-Coding-with-Prashant-Sir/JavaScript_Complete_YouTube/blob/main/8%20JSON%20Local%20Storage%20Date%20and%20DOM/Cricket%20Game/images/stump.png?raw=true" alt="stump"  class="image"></button>
+<button    id="reset" class="button" onclick="(reset())">Reset</button>
+    </div>
+    <div id="result-box">
+<h3   class="Result"  id ="compCh"></h3>
+<h3    class="Result"   id ="MYmove"></h3>
+<h3     class="Result" id ="Result"></h3>
+<h3    class="Result" id="Score"></h3>
+    </div>
+<script src="crciket.js"> </script>
+</body>
+<footer><h1>Thank u for playing</h1></footer>
+</html> 
